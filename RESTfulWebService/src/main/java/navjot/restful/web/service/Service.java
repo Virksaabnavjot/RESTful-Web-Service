@@ -28,7 +28,7 @@ public class Service {
     @Produces("application/json")
     public Response test(@Context UriInfo info){
         List <String> list = new ArrayList<>();
-        String text = "Your Web RESTful Web Service is UP and Running.Have a Good Day!!!!";
+        String text = "Welcome, Your Web RESTful Web Service is UP and Running.Have a Good Day!!!!";
         list.add(name);
         list.add(text);
         Gson gson = new Gson();
