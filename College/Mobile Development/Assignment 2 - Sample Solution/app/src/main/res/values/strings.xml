@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CA1</string>
+
+     <string-array name="options">
+         <item>Monthly</item>
+         <item>Yearly</item>
+    </string-array>
+
+</resources>
